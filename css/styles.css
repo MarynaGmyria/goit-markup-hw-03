@@ -71,8 +71,9 @@ img {
 /* ============ HEADER ===============*/
 
 .header {
-  padding-top: 32px;
-  padding-bottom: 32px;
+  padding-top: 24px;
+  padding-bottom: 25px;
+  margin-bottom: 1px;
 }
 
 .header .container {
@@ -258,7 +259,7 @@ img {
 }
 
 .about {
-  padding-bottom: 179px;
+  padding-bottom: 94px;
 }
 
 .about-title,
@@ -289,14 +290,17 @@ img {
 .team-list {
   display: flex;
   justify-content: space-between;
-  margin-bottom: 9px;
 }
 .team-list-item:not(:last-child) {
   margin-right: 30px;
 }
 
+.team {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+
 .team .team-title {
-  margin-top: 94px;
   margin-bottom: 50px;
 }
 
@@ -314,10 +318,15 @@ img {
 
 /*=========== BUTTON ==========*/
 
+.button-portfolio {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+
 .button-list {
   display: flex;
-  padding-top: 94px;
-  margin-left: 290px;
+  justify-content: center;
+  margin-bottom: 34px;
 }
 
 .button-list-item {
@@ -340,7 +349,7 @@ img {
 }
 
 .button-list-item-all {
-  margin-right: 9px;
+  margin-right: 8px;
   border: none;
   cursor: pointer;
   max-width: 73px;
@@ -361,8 +370,15 @@ img {
 .portfolio-list {
   display: flex;
   flex-wrap: wrap;
-  padding-top: 50px;
-  padding-bottom: 94px;
+  margin-left: -30px;
+  margin-top: -30px;
+}
+
+.portfolio-list-item {
+  margin-left: 27px;
+  margin-top: 30px;
+  flex-basis: calc(100% / 3 - 30px);
+  border: 1px solid #f6f6f6;
 }
 
 .portfolio-container {
@@ -374,10 +390,6 @@ img {
 
 .portfolio-subtitle-list-item {
   margin-bottom: 4px;
-}
-
-.portfolio-list-item:not(:nth-child(3n)) {
-  margin-right: 30px;
 }
 
 .portfolio-subtitle-list-item {
@@ -441,8 +453,8 @@ img {
   padding-bottom: 60px;
 }
 
-.contact-list-link {
-  padding-top: 9px;
+.contact-list-item {
+  padding-bottom: 9px;
 }
 
 /* ============= END CONTACTS ===============*/
