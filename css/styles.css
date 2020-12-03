@@ -414,6 +414,8 @@ img {
 
 .footer {
   background-color: #2f303a;
+  padding-top: 60px;
+  padding-bottom: 60px;
 }
 
 .logo-footer {
@@ -445,12 +447,11 @@ img {
 }
 
 .container-logo-footer {
-  padding-top: 60px;
   padding-bottom: 20px;
 }
 
 .contact-container {
-  padding-bottom: 60px;
+  adding-bottom: 60px;
 }
 
 .contact-list-item {
